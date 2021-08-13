@@ -1,0 +1,48 @@
+#container {
+    width: 400px;
+    background-color: rgb(131, 168, 201);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list > li {
+    background-color: rgb(89, 119, 108);
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#h1_ {
+    text-align: center;
+}
+
+#add {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+#add > button {
+    padding: 10px;
+}
